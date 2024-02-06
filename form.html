@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <h3>Step 1: Your Details</h3>
+            <section>
+                <label
+                    for="fname">Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="First & Last Name" size="20" id="fname">
+            </section>
+            <br>
+            <section>
+                <label
+                    for="mail">Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="email" placeholder="example@domain.com" size="20" id="mail">
+            </section>
+            <br>
+            <section>
+                <label
+                    for="mob">Phone</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="number" placeholder="Eg. +447500000000" size="20" id="mob">
+            </section>
+            <br>
+            <h3>Step 2: Delivery Address</h3>
+            <div class="com">
+                <label for="add">Address</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <textarea id="add" name="add" placeholder="Enter your Address" rows="6" cols="23"></textarea>
+            </div>
+            <br>
+            <section>
+                <label for="code">Post Code</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" size="20" id="code">
+            </section>
+            <br>
+            <section>
+                <label for="Country">Country</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="Eg. +447500000000" size="20" id="Country">
+            </section>
+            <br>
+            <h3>Step 3: Card Details</h3>
+            <section>
+                <label for="card">Card Type</label><br><br>
+
+                <input type="radio" name="card" id="C"><img src="./visa.jpg" alt="This is an image" height="15"
+                    width="30"> &nbsp;
+                <label for="C">VISA</label>
+                <input type="radio" name="card" id="A"><img src="./amex.jpg" alt="This is an image" height="15"
+                    width="30"> &nbsp;
+                <label for="A">AmEx</label>
+                <input type="radio" name="card" id="R"><img src="./master.png" alt="This is an image" height="15"
+                    width="30"> &nbsp;
+                <label for="R">Mastermind</label>
+            </section>
+            <br>
+            <section>
+                <label for="CN">Card
+                    Number</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" size="20" id="CN">
+            </section>
+            <br>
+            <section>
+                <label for="MPIN">Security
+                    Code</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" size="20" id="MPIN">
+            </section>
+            <br>
+            <section>
+                <label for="NC">Name On
+                    Card</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" placeholder="Exact name as on the card" size="20" id="NC">
+            </section>
+            <br>
+            <center>
+                <button type="submit"></button><img class="but" src="./Buy.png" alt="This is an action button"
+                    height="50" width="190"></button>
+            </center>
+        </form>
+    </div>
+
+</body>
+
+</html>

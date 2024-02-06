@@ -1,0 +1,43 @@
+.container {
+    background-color: #9bba2b;
+    height: 1500;
+    margin-bottom: 350;
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(0, 92, 0);
+    padding: 10px;
+}
+
+section {
+    background-color: #b9cf6a;
+    height: 250;
+    width: 50;
+    border: solid;
+    border-color: bisque;
+    padding: 15px;
+    margin: 5px;
+}
+
+.com {
+    background-color: #b9cf6a;
+    height: 250;
+    width: 50;
+    border: solid;
+    border-color: bisque;
+    padding: 350;
+}
+
+img {
+    border: solid;
+    border-color: rgb(124, 124, 124);
+
+}
+
+button{
+    background-color: #9bba2b;
+    border: solid;
+}
+
+.but{
+    border: none;
+}
